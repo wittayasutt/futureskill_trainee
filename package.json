@@ -1,0 +1,40 @@
+{
+  "name": "ums",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.4.1",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-styled-components": "^1.5.1",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "bulma": "^0.7.1",
+    "express": "^4.16.3",
+    "glob": "^7.1.2",
+    "grommet": "^1.10.1",
+    "grommet-controls": "^0.26.3",
+    "grommet-icons": "^0.16.0",
+    "lodash": "^4.17.10",
+    "next": "^6.0.0",
+    "next-redux-wrapper": "^2.0.0-beta.6",
+    "node-sass": "^4.9.0",
+    "normalize.css": "^8.0.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.1.5",
+    "raw-loader": "^0.5.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^7.0.1",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-imports": "^1.5.0"
+  }
+}

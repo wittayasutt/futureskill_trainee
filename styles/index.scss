@@ -1,0 +1,22 @@
+@import url('static/web-fonts-with-css/css/fontawesome-all.min.css');
+@import 'grommet/grommet.min.css';
+@import 'bulma/bulma.sass';
+
+@font-face {
+	font-family: 'Prompt';
+	font-weight: 400;
+	src: local('Prompt'), local('Prompt-Regular'),
+		url(../static/fonts/Prompt/Prompt-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Prompt';
+	font-weight: 500;
+	src: local('Prompt'), local('Prompt-Medium'),
+		url(../static/fonts/Prompt/Prompt-Medium.ttf) format('truetype');
+}
+
+body {
+	font-family: 'Prompt';
+	color: #444655;
+}
